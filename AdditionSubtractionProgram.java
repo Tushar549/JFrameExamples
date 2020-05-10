@@ -49,7 +49,6 @@ class CreatingFrame extends JFrame implements ActionListener
         result.setEditable(false);
         super.add(result);
         
-        
         addButton= new JButton("Add");
         addButton.setBounds(10,140,70,20);
         addButton.addActionListener(this);
